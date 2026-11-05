@@ -1,6 +1,6 @@
 # Work Under Water
 
-A simulator game made in Unity (C#). [Одно предложение: в чём суть игры.]
+A simulator game made in Unity (C#).
 
 ![Gameplay](ссылка-на-gif.gif)
 
@@ -10,7 +10,7 @@ A simulator game made in Unity (C#). [Одно предложение: в чём
 - [Механика 3]
 
 ## Tech
-- Unity [версия]
+- Unity [6000.4]
 - C#
 
 ## Play
