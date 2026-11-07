@@ -14,7 +14,7 @@ A simulator game made in Unity (C#).
 - C#
 
 ## Play
-Download the latest build from [Releases](ссылка) or play on [itch.io](https://skridmop.itch.io/work-under-water2).
+Download the latest build from [Releases](https://github.com/user-attachments/files/34527535/WorkUnderWater.zip) or play on [itch.io](https://skridmop.itch.io/work-under-water2).
 
 ## Controls
 - WASD - move
