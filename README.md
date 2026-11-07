@@ -5,9 +5,9 @@ A simulator game made in Unity (C#).
 ![Gameplay](ссылка-на-gif.gif)
 
 ## Features
-- [Механика 1]
-- [Механика 2]
-- [Механика 3]
+- Collect trash
+- Get the highest point
+- Hide from sharks
 
 ## Tech
 - Unity [6000.4]
@@ -17,8 +17,8 @@ A simulator game made in Unity (C#).
 Download the latest build from [Releases](ссылка) or play on [itch.io](https://skridmop.itch.io/work-under-water2).
 
 ## Controls
-- [WASD / стрелки — движение]
-- [Остальное управление]
+- WASD - move
+- SPACE - hide
 
 ## Author
-Riad — [GitHub](https://github.com/skridmop)
+Riad Taghiyev — [GitHub](https://github.com/skridmop)
