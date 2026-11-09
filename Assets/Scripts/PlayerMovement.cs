@@ -9,10 +9,12 @@ public class PlayerMovement : MonoBehaviour
     public Sprite hiddensprite;
 
     private SpriteRenderer spriteRenderer;
+    private Animator animHide;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animHide = GetComponent<Animator>();
     }
 
     void Update()
@@ -39,12 +41,14 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Keyboard.current.spaceKey.wasPressedThisFrame && !Hide)
         {
+            animHide.SetBool("Hide", true);
             Hide = true;
             spriteRenderer.sprite = hiddensprite;
             GetComponent<Collider2D>().enabled = false;
         }
         else if (Keyboard.current.spaceKey.wasPressedThisFrame && Hide)
         {
+            animHide.SetBool("Hide", false);
             Hide = false;
             spriteRenderer.sprite = normalsprite;
             GetComponent<Collider2D>().enabled = true;
